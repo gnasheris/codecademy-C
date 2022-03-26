@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main {
+  int grade1 = 60;
+  int grade2 = 100;
+  
+  if (grade1 > 60) {
+    printf("Pass\n");
+   { else {
+   printf("Fail\n");
+   }
+  }
+
+}
