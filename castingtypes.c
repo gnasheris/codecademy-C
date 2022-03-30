@@ -32,6 +32,8 @@ int main() {
     double1 = 55.67;
     double1 = (char)double1;
     printf("%c\n", double1);
+    //outputs 7
+    //converts double to int, then gets the ascii symbol of it, which is 7
   
     return 0;
 }
