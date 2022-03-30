@@ -6,6 +6,7 @@ int main() {
     char character1;
     char character2;
     int integer1;
+    double double1;
 //converting char A to int 
     character1 = 'A';
     character1 = (int)character1;
@@ -23,10 +24,14 @@ int main() {
 //converting int 8 to char
     integer1 = 65;
     integer1 = (char)integer1;
-    printf("%c", integer1);
-    return 0;
+    printf("%c\n", integer1);
     //outputs A
     //converts the ascii value to ascii symbol
 
+//converting double to char
+    double1 = 55.67;
+    double1 = (char)double1;
+    printf("%c\n", double1);
   
+    return 0;
 }
